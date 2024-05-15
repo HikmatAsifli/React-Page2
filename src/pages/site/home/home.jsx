@@ -4,9 +4,10 @@ import MainContext from '../../../context/context'
 import Banner from '../../../components/site/banner/Banner'
 import Icon from '../../../components/site/icon-section/Icon'
 import Collection from '../../../components/site/collection/Collection'
+import Card from '../../../components/site/card/Card'
 
 const Home = () => {
-    const { data, setdata } = useContext(MainContext)
+    const { data, setData } = useContext(MainContext)
     return (
         <>
             <Helmet>
@@ -17,7 +18,8 @@ const Home = () => {
             </Helmet>
             <Banner />
             <Icon />
-            <Collection/>
+            <Collection />
+            <Card />
         </>
     )
 }

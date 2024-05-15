@@ -5,6 +5,7 @@ import Add from "../pages/admin/add/add"
 import Error from "../pages/error/error/error"
 import SiteRoot from "../pages/site/SiteRoot"
 import Home from "../pages/site/home/home"
+import Products from "../pages/admin/products/products"
 
 const ROUTES =[
     {
@@ -28,6 +29,10 @@ const ROUTES =[
             {
                 path:"add",
                 element:<Add/>
+            },
+            {
+                path: "products",
+                element: <Products/>
             }
         ]
     }

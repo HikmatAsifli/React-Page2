@@ -4,7 +4,7 @@
     import MainContext from '../../../context/context'
     
     const Dashboard = () => {
-        const {data,setdata} = useContext(MainContext)
+        const {data,setData} = useContext(MainContext)
         return (
         <>
                 <Helmet>
