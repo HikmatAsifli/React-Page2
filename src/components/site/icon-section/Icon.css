@@ -1,0 +1,23 @@
+.icons {
+  .icon {
+    display: inline-block;
+    .icon-truck {
+      i {
+        position: relative;
+        color: #7971ea;
+        top: -10px;
+        font-size: 40px;
+        display: inline-block;
+      }
+    }
+    h2 {
+      color: #25262a;
+      letter-spacing: 0.05em;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

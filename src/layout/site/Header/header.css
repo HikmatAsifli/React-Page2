@@ -1,0 +1,20 @@
+header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    text-transform: uppercase;
+    color: #25262a;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #25262a;
+  }
+}
+nav{
+    ul{
+        gap: 20px;
+    }
+}
