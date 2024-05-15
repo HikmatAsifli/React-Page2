@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Card.css'
 import { Link } from 'react-router-dom'
+import MainContext from '../../../context/context'
 
 const Card = () => {
+    const { data } = useContext(MainContext)
     return (
         <section className="cards mt-5 bg-light">
             <div className="container">
@@ -12,17 +14,21 @@ const Card = () => {
                     </div>
                 </div>
                 <div className="row">
-                    {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-5">
-                        <div className="card">
-                            <img className='card-img-top' src="..." alt="" />
-                            <div className="card-body">
-                                <h5 className="card-title">Name</h5>
-                                <p className="card-text">Desc</p>
-                                <p>Price</p>
-                                <Link to="#" className="btn btn-success">Card</Link>
+                    {
+                        data.map(item => (
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-5" key={item.id}>
+                                <div className="card">
+                                    <img className='card-img-top' src={item.image} width="300px" height="300px" alt="" />
+                                    <div className="card-body">
+                                        <h5 className="card-title">{item.name}</h5>
+                                        <p className="card-text">{item.description}</p>
+                                        <p>{item.price}</p>
+                                        <Link to="#" className="btn btn-success">Card</Link>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div> */}
+                        ))
+                    }
                 </div>
             </div>
         </section>

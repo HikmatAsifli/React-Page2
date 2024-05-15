@@ -20,7 +20,7 @@ const Icon = () => {
                     <div className="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4">
                         <div className="icon mr-4 align-self-start">
                             <div className='icon-truck'>
-                                <i class="fa-solid fa-rotate-right"></i>
+                                <i className="fa-solid fa-rotate-right"></i>
                             </div>
                             <div className="text">
                                 <h2>Free Shipping</h2>
@@ -31,7 +31,7 @@ const Icon = () => {
                     <div className="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4">
                         <div className="icon mr-4 align-self-start">
                             <div className='icon-truck'>
-                                <i class="fa-solid fa-question"></i>
+                                <i className="fa-solid fa-question"></i>
                             </div>
                             <div className="text">
                                 <h2>Free Shipping</h2>

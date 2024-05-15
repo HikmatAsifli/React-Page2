@@ -1,3 +1,11 @@
 {
-  "products": []
+  "products": [
+    {
+      "id": "d701ce82-d45f-4f26-85a4-1c45ddf05ccb",
+      "name": "asxa",
+      "description": "axs",
+      "price": "axs`",
+      "image": "axa"
+    }
+  ]
 }
