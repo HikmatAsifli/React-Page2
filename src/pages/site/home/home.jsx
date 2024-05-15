@@ -5,6 +5,7 @@ import Banner from '../../../components/site/banner/Banner'
 import Icon from '../../../components/site/icon-section/Icon'
 import Collection from '../../../components/site/collection/Collection'
 import Card from '../../../components/site/card/Card'
+import BigSale from '../../../components/site/bigSale/BigSale'
 
 const Home = () => {
     const { data, setData } = useContext(MainContext)
@@ -20,6 +21,7 @@ const Home = () => {
             <Icon />
             <Collection />
             <Card />
+            <BigSale />
         </>
     )
 }

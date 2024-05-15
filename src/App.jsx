@@ -4,6 +4,7 @@ import MainContext from "./context/context";
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
+import './App.css'
 
 function App() {
     const [loading, setLoading] = useState(true);

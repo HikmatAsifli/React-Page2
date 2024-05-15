@@ -1,6 +1,8 @@
-.cards {
-  position: relative;
-  .site-heading.text-center::before {
+.sale{
+    position: relative;
+    margin-top: 20px;
+}
+.section-heading.text-center:before {
     content: "";
     left: 50%;
     top: 10px;
@@ -11,8 +13,4 @@
     width: 40px;
     height: 2px;
     background: #7971ea;
-  }
-  .card {
-    border: none;
-  }
 }
